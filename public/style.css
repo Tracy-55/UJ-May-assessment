@@ -1,5 +1,5 @@
 body {
-    background-color:#780000(0, 0%, 100%);
+    background-color:#780000;
 }
 
 .main {
@@ -8,19 +8,19 @@ body {
 
 .container {
     width: 400px;
-    background-color:#c1121f(8, 79, 134);
+    background-color:#c1121f;
     padding: 1em;
 }
 
 .styled-hr {
-    border: 0;
+    border: 2;
     height: 4px;
-    background: rgb(102, 27, 27);
+    background: #050e0a ;
     margin: 20px 0;
 }
 
 .styled-hr2 {
-    border: 0;
+    border: 2;
     height: 4px;
     background: black;
     margin: 20px 0;
@@ -28,20 +28,19 @@ body {
 
 .title {
     text-decoration: underline;
-    color: #6d1616;
+    color: #5b0808;
 }
 
 .title-1 {
     text-decoration: underline;
-    color: #6d1616;
+    color: #5b0808;
 }
 
 .personalDetails,
-.Skills,
 .workExperience,
 .ContactDetails {
-    margin-left: .5em;
-    color: #6b9080
+    margin-left: 2.5em;
+    color: #050e0a
 }
 
 .container2 {
@@ -60,15 +59,14 @@ body {
     color: black;
 }
 
-.Language {
-    font-size: 1.5em;
-}
-
-.text-param,
-.Work-experience {
+.Languages{
     margin-left: 2.5em;
+    color: black;
 }
 
+.Education{
+    color: ;
+}
 h4 {
     text-decoration: underline;
 }
