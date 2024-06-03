@@ -1,5 +1,5 @@
 body {
-    background-color:#780000(0, 0%, 100%);
+    background-color:#780000;
 }
 
 .main {
@@ -8,7 +8,7 @@ body {
 
 .container {
     width: 400px;
-    background-color:#c1121f(8, 79, 134);
+    background-color:#c1121f;
     padding: 1em;
 }
 
@@ -60,16 +60,10 @@ body {
 }
 
 .Languages{
-    margin-left: 1.5em;
+    margin-left: 2.5em;
     color: black;
 }
 
-
-
-.text-param,
-.Work-experience {
-    margin-left: 2.5em;
-}
 
 h4 {
     text-decoration: underline;
