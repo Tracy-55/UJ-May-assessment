@@ -6,6 +6,11 @@ body {
     display: flex;
 }
 
+.CV{
+    font-family: 'Arial Narrow', Arial;
+    font-weight: bold;
+    font-size: x-large
+}
 .container {
     width: 500px;
     background-color:#c1121f;
