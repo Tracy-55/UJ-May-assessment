@@ -68,7 +68,7 @@ body {
     color: #5b0808
 }
 h4 {
-    text-decoration: solid;
+    text-decoration: wavy;
 }
 
 @media screen and (max-width: 600px) {
