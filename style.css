@@ -37,10 +37,9 @@ body {
 }
 
 .personalDetails,
-.Skills,
 .workExperience,
 .ContactDetails {
-    margin-left: .5em;
+    margin-left: 2.5em;
     color: #6b9080
 }
 
@@ -62,7 +61,10 @@ body {
 
 .Languages{
     margin-left: 1.5em;
+    color: black;
 }
+
+
 
 .text-param,
 .Work-experience {
