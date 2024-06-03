@@ -3,15 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
 </head>
 <body>
-        <img src="{{photo}}" alt="" srcset="">
-    <ul>
-        {{#each subjects}}
-        <li>{{this.name}}</li>
-        {{/each}}
-    </ul>
+    <div class="main">
+        <div class="panel-section">
+            <div class="container">
+                <hr class="styled-hr">
+                <h2 class="title">{{personalDetails.title}}</h2>
+                <div class="personal-details">
+                    <ul>
+                        <li>Name: {{personalDetails.fullName}}</li>
+                        <li>description: {{Profile.description}}</li>
+                    </ul>
+                </div>
+    
+                <br>
+                <hr class="styled-hr">
+                <h2 class="title">{{contactDetails.title}}</h2>
+                <div class="contact-details">
+                    <ul>
+                        <li>Email: {{contactDetails.email}}</li>
+                        <li>Phone: {{contactDetails.phone}}</li>
+                        <li>LinkedIn: <a style="color: darkolivegreen" href="https://www.linkedin.cxom/in/traicy-marutla-23bb2a274/">{{contactDetails.linkedIn}}</a></li>
+                    </ul>                
+                </div>
+    
+                <br>
+                <hr class="styled-hr">
+                <h2 class="title">{{skills.title}}</h2>
+                <div class="skillsdetails">
+                    <ul>
+                        <li>{{skills.skill1}}</li>
+                        <li>{{skills.skill2}}</li>
+                        <li>{{skills.skill3}}</li>
+                        <li>{{skills.skill4}}</li>
+                    </ul>
+                </div>
+                <div class="workExperience">
+                    <h4>Work Experience</h4>
+                    <div class="div">
+                        <ul>
+                            <li>{{workExperience.job1}}</li>
+                            <li>{{workExperience.job2}}</li>
+                            <li>{{workExperience.job3}}</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <br>
+                <hr class="styled-hr">
+                <h2 class="title">{{Language.title}}</h2>
+                <div class="Language details">
+                    <ul>
+                        <li>{{Language.lang1}}</li>
+                        <li>{{Language.lang2}}</li>
+                        <li>{{Language.lang3}}</li>
+                        <li>{{Language.lang4}}</li>
+                        <li>{{Language.lang5}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container2">
+            <hr class="styled-hr2">
+            <h2 class="title-1">{{Profile.title}}</h2>
+            <div class="param-text">
+                <p>{{{Profile.text}}}</p>
+            </div>
+
+            <hr class="styled-hr2">
+            <h2 class="title-1">{{Education.header}}</h2>
+            <div class="education-details">
+                <ul>
+                    <li>{{{Qualification.title}}}</li>
+                </ul>
+                <div class="description-param">
+                    {{{description.param}}}
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </div>
 </body>
 </html>

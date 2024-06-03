@@ -1,12 +1,43 @@
 {
-    "subjects":[
+    "personalDetails": {
+        "title" : "Personal Details",
+        "fullName": "Traicy Marutla",
+        "address": "42 Richmond Avenue, AucklandPark",
+        "phone": "0647722124",
+        "email": "traicy.marutla@gmail.com"
+    },
+    "profile": {
+        "title" : "Personal Profile",
+        "description": "Traicy Marutla is a Bachelor of Commerce Industrial Psychology Graduate from the University of Johannesburg."
+    },
+    "education": {
+        "institutionName": "Unversity of Johannesburg",
+        "Qualification": "BCom Industrial Psychology",
+        "description": "This course involves People Management, Includes majors in, Economics, Analyical Techniques, and Accounting"
+    },
+    "Language": {
+        "language1": "English",
+        "language2": "Afrikaans",
+        "language3": "Isizulu",
+        "language4": " Sepedi",
+        "language5": "Isixhosa",
+        "language6": " Setswana"
+    },
+    " workExperience": {
+        "job1": "Social Media Manager",
+        "description1": "Building a positive online presence, creating and managing posts",
+        "job2": "UJDU Speaker Representative",
+        "description2": "Representing the Union on Television programs,ie. Expression on SABC",
+        "job3": "Student Life Intern, Academics & Wellbeing",
+        "description3": "Was a part of a dedicated team of SLIs in the Thrive Student Living Accommodation, was involved in planning and overseeing open days and establishing mentorship programs"
+    },
+    "Skills": [
         {
-            "name":"IsiZulu"
-        },
-        {
-            "name":"IsiXhosa"
+            "Skill1": "Microsoft Office(Word, Excel, and PowerPoint",
+            "Skill2": "Project Management",
+            "Skill3": "Conflict Management",
+            "Skill4": "Programme development and marketing"
         }
-    ],
 
-    "photo":"./pic.png"
+    ]
 }

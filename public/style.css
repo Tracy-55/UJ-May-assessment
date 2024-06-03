@@ -1,3 +1,90 @@
-body{
-    background-color: blueviolet;
+
+body {
+    background-color:#780000(0, 0%, 100%);
 }
+
+.main {
+    display: flex;
+}
+
+.container {
+    width: 400px;
+    background-color:#c1121f(8, 79, 134);
+    padding: 1em;
+}
+
+.styled-hr {
+    border: 0;
+    height: 1px;
+    background: white;
+    margin: 20px 0;
+}
+
+.styled-hr2 {
+    border: 0;
+    height: 1px;
+    background: black;
+    margin: 20px 0;
+}
+
+.title {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.title-1 {
+    text-decoration: underline;
+    color: black;
+}
+
+.personalDetails,
+.Profile,
+.Skills,
+.Work-experience,
+.education-details {
+    margin-left: .5em;
+    color: #6b9080
+}
+
+.container2 {
+    padding-left: 2em;
+    width: 100%;
+}
+
+.param-text {
+    font-family: 'Arial Narrow', Arial;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Skills-details {
+    margin-left: 2.5em;
+    color: black;
+}
+
+.Skills-details p {
+    font-size: 1.5em;
+}
+
+.text-param,
+.Work-experience {
+    padding-left: 2.5em;
+}
+
+.ref-details p {
+    font-size: 1.5em;
+}
+h4 {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        display: block;
+    }
+    .container,
+    .container2 {
+        width: 90%;
+    }
+}
+
