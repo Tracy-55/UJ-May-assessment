@@ -68,7 +68,7 @@ body {
     color: #5b0808
 }
 h4 {
-    text-decoration: underline;
+    text-decoration: solid;
 }
 
 @media screen and (max-width: 600px) {
