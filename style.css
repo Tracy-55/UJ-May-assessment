@@ -33,13 +33,12 @@ body {
 
 .title-1 {
     text-decoration: underline;
-    color: black;
+    color: #6d1616;
 }
 
 .personalDetails,
-.Profile,
 .Skills,
-.Work-experience,
+.workExperience,
 .education-details {
     margin-left: .5em;
     color: #6b9080
