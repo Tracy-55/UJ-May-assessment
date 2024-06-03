@@ -15,7 +15,7 @@ body {
 .styled-hr {
     border: 0;
     height: 4px;
-    background: white;
+    background: rgb(102, 27, 27);
     margin: 20px 0;
 }
 
