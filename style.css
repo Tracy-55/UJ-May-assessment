@@ -1,0 +1,87 @@
+body {
+    background-color:#474040;
+}
+
+.main {
+    display: flex;
+}
+
+.CV{
+    font-family: 'Arial Narrow', Arial;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.container {
+    width: 500px;
+    background-color:#c1121f;
+    padding: 1em;
+}
+
+.styled-hr {
+    border: 2;
+    height: 4px;
+    background: #050e0a ;
+    margin: 20px 0;
+}
+
+.styled-hr2 {
+    border: 2;
+    height: 4px;
+    background: black;
+    margin: 20px 0;
+}
+
+.title {
+    text-decoration: underline;
+    color: #5b0808;
+}
+
+.title-1 {
+    text-decoration: underline;
+    color: #5b0808;
+}
+
+.personalDetails,
+.workExperience,
+.ContactDetails {
+    margin-left: 1em;
+    color: #050e0a
+}
+
+.container2 {
+    padding-left: 4em;
+    width: 100%;
+}
+
+.param-text {
+    font-family: 'Arial Narrow', Arial;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.Skills {
+    margin-left: 2.5em;
+    color: black;
+}
+
+.Languages{
+    margin-left: 2.5em;
+    color: black;
+}
+
+.Education{
+    color: #5b0808
+}
+h4 {
+    text-decoration: wavy;
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        display: block;
+    }
+    .container,
+    .container2 {
+        width: 90%;
+    }
+}
