@@ -66,12 +66,9 @@ body {
 
 .text-param,
 .Work-experience {
-    padding-left: 2.5em;
+    margin-left: 2.5em;
 }
 
-.ref-details p {
-    font-size: 1.5em;
-}
 h4 {
     text-decoration: underline;
 }
