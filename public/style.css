@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 500px;
     background-color:#c1121f;
     padding: 1em;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .styled-hr2 {
-    border: 20;
+    border: 2;
     height: 4px;
     background: black;
     margin: 20px 0;
