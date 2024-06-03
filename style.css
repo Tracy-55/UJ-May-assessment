@@ -13,14 +13,14 @@ body {
 }
 
 .styled-hr {
-    border: 0;
+    border: 2;
     height: 4px;
-    background: rgb(102, 27, 27);
+    background: #6d1616;
     margin: 20px 0;
 }
 
 .styled-hr2 {
-    border: 0;
+    border: 2;
     height: 4px;
     background: black;
     margin: 20px 0;
@@ -28,19 +28,19 @@ body {
 
 .title {
     text-decoration: underline;
-    color: #6d1616;
+    color: #5b0808;
 }
 
 .title-1 {
     text-decoration: underline;
-    color: #6d1616;
+    color: #5b0808;
 }
 
 .personalDetails,
 .workExperience,
 .ContactDetails {
     margin-left: 2.5em;
-    color: #6b9080
+    color: #050e0a
 }
 
 .container2 {
