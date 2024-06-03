@@ -15,7 +15,7 @@ body {
 .styled-hr {
     border: 2;
     height: 4px;
-    background: #6d1616;
+    background: #050e0a;
     margin: 20px 0;
 }
 
@@ -64,7 +64,9 @@ body {
     color: black;
 }
 
-
+.Education{
+    color: ;
+}
 h4 {
     text-decoration: underline;
 }
