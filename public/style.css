@@ -14,14 +14,14 @@ body {
 
 .styled-hr {
     border: 0;
-    height: 1px;
+    height: 4px;
     background: white;
     margin: 20px 0;
 }
 
 .styled-hr2 {
     border: 0;
-    height: 1px;
+    height: 4px;
     background: black;
     margin: 20px 0;
 }
