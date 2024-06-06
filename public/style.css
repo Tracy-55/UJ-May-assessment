@@ -1,107 +1,74 @@
-/* General Styles */
 body {
     background-color: #f4f4f9;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
 }
 
-/* Main Container */
 .main {
     display: flex;
     justify-content: center;
     padding: 2em;
-    flex-wrap: wrap;
 }
 
-/* Section Containers */
 .container, .container2 {
     background-color: #ffffff;
     padding: 2em;
     margin: 1em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
 }
 
-/* Headings */
 h2 {
-    font-size: 1.8em;
-    color: #c1121f;
-    text-align: center;
-    margin-bottom: 0.5em;
-}
-
-h4 {
     font-size: 1.5em;
-    color: #c1121f;
+    color: #333;
     text-align: center;
-    text-decoration: underline;
-    margin-bottom: 0.5em;
 }
 
-/* Profile Image */
 img {
     display: block;
-    margin: 0.5em auto 1em;
+    margin: 0 auto 1em;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
 }
 
-/* Styled Horizontal Rule */
 .styled-hr, .styled-hr2 {
     border: none;
     height: 4px;
-    background: #c1121f;
+    background: #333;
     margin: 20px 0;
-    border-radius: 2px;
 }
 
-/* Section Titles */
 .title, .title-1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #c1121f;
     text-decoration: underline;
-    margin-bottom: 1em;
-    text-align: center;
+    margin-bottom: 0.5em;
 }
 
-/* Section Content */
 .personal-details, .contact-details, .skills, .work-experience, .languages, .education, .references {
     margin-bottom: 2em;
 }
 
-/* Unordered List */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
-/* List Items */
 li {
     margin-bottom: 0.5em;
-    font-size: 1.1em;
 }
 
-/* Strong Text */
 strong {
-    color: #c1121f;
+    color: #333;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 600px) {
     .main {
         display: block;
-        padding: 1em;
     }
     .container, .container2 {
         width: 90%;
-        margin: 1em auto;
+        margin: 0 auto;
     }
 }
-
-
 
