@@ -1,87 +1,68 @@
 body {
-    background-color:#474040;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
 }
 
 .main {
-    display: flex;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-.CV{
-    font-family: 'Arial Narrow', Arial;
-    font-weight: bold;
-    font-size: xx-large;
+.header {
+    text-align: center;
 }
-.container {
-    width: 500px;
-    background-color:#c1121f;
-    padding: 1em;
+
+.header h1 {
+    margin-bottom: 0;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h2 {
+    color: #0073e6;
+    margin-bottom: 5px;
 }
 
 .styled-hr {
-    border: 2;
-    height: 4px;
-    background: #050e0a ;
-    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #0073e6;
+    margin-bottom: 10px;
 }
 
-.styled-hr2 {
-    border: 2;
-    height: 4px;
-    background: black;
-    margin: 20px 0;
+.logo {
+    width: 100px;
+    margin-top: 10px;
 }
 
-.title {
-    text-decoration: underline;
-    color: #5b0808;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.title-1 {
-    text-decoration: underline;
-    color: #5b0808;
+ul li {
+    margin-bottom: 10px;
 }
 
-.personalDetails,
-.workExperience,
-.ContactDetails {
-    margin-left: 1em;
-    color: #050e0a
-}
-
-.container2 {
-    padding-left: 4em;
-    width: 100%;
-}
-
-.param-text {
-    font-family: 'Arial Narrow', Arial;
-    font-weight: bold;
-    font-size: medium;
-}
-
-.Skills {
-    margin-left: 2.5em;
-    color: black;
-}
-
-.Languages{
-    margin-left: 2.5em;
-    color: black;
-}
-
-.Education{
-    color: #5b0808
-}
-h4 {
-    text-decoration: wavy;
-}
-
-@media screen and (max-width: 600px) {
-    .main {
-        display: block;
-    }
-    .container,
-    .container2 {
-        width: 90%;
-    }
+ul li strong {
+    color: #0073e6;
 }
